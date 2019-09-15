@@ -5,6 +5,7 @@ module.exports = {
 
     //配置多入口文件
     entry : {
+        // app  : [ "@babel/polyfill", "./src/index.js" ],
         app  : "./src/index.js",
         hello: "./src/hello.js",
     },
